@@ -1,27 +1,15 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SmallChange.Models;
-using System.Collections.Generic;
-
-namespace SmallChange.Models
+namespace SmallChange.Tests
 {
     [TestClass]
-    public class Change
+    public class ChangeTest
     {
         [TestMethod]
-        public void CountUp_FillsGameResult_UpToInputNumber()
+        public void DivideByUserInput_PrintAmountOfCoins()
         {
             // Arrange
-            int input = 10;
-
-            // Act
-            var result = GameClass.CountUp(input);
-
-            // Assert
-            for (int i = 1; i <= input; i++)
-            {
-                Assert.IsTrue(result.ContainsKey(i));
-                Assert.AreEqual(i, result[i]);
-            }
+            Assert.AreEqual(Change.Break(50), "Your Change is: 2 quarters, 0 dimes, 0 nickles, 0 pennies");
         }
     }
 }

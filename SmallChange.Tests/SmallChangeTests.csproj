@@ -10,7 +10,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\PingPong\PingPong.csproj" />  
+        <ProjectReference Include="..\SmallChange\SmallChange.csproj" />  
     </ItemGroup>
 
 </Project>
