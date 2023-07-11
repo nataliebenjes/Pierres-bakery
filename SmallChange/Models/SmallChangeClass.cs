@@ -22,11 +22,6 @@ namespace SmallChange.Models
             // Set coins to the list
             changeValues[i] = coinsAmount;
         }
-
-        // Show result
-        Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*");
-        Console.WriteLine($"Your Change is: {changeValues[0]} quarters, {changeValues[1]} dimes, {changeValues[2]} nickles, {changeValues[3]} pennies");
-
         return changeValues;
     }
     }
