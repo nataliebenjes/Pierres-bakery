@@ -38,6 +38,7 @@ namespace SmallChange.Models
             Console.WriteLine(" ");
             Console.WriteLine("Enter an Amount in Cents in Order To Find");
             Console.WriteLine("the Most Efficient Way to Break It");
+            Console.WriteLine(" ");
             string userInput = Console.ReadLine();
             int userInputNumber = int.Parse(userInput);
             {
@@ -49,14 +50,13 @@ namespace SmallChange.Models
 
 
             // Show result
-            Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*");
+            Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
             Console.WriteLine(" ");
             Console.WriteLine($"Your Change is: {collection[0]} quarters, {collection[1]} dimes, {collection[2]} nickles, {collection[3]} pennies");
             Console.WriteLine(" ");
-            Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*");
+            Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
-
             Console.WriteLine("Do You Want Your Money In a Different Change? (Y/N)");
             string userDifferentChange = Console.ReadLine();
             if (userDifferentChange == "Y")
@@ -64,16 +64,18 @@ namespace SmallChange.Models
                 collection = Change.DifferentChange(userInputNumber); // Note the removal of 'List<int>'
 
                 // Show different change result
-                Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*");
+                Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
                 Console.WriteLine(" ");
                 Console.WriteLine($"Your Different Change is: {collection[0]} quarters, {collection[1]} dimes, {collection[2]} nickles, {collection[3]} pennies");
                 Console.WriteLine(" ");
-                Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*");
+                Console.WriteLine("*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*");
+                Console.WriteLine(" ");
             }
             else
             {
                 Console.WriteLine("Do You Need To Break More Change?(Y/N)");
                 string userInput2 = Console.ReadLine();
+                Console.WriteLine(" ");
                 if (userInput2 == "Y")
                 {
                     Main();
