@@ -19,9 +19,9 @@ class Program
     int pastryInputNumber = int.Parse(pastryInput);
     //calculate pastry cost
     //create instances of orders
-    Bread.ListOf(breadInputNumber);
+    Console.WriteLine(Bread.ListOf(breadInputNumber));
     int breadTotal = Bread.CalcTotal(Bread.breadNumberList, 0);
-    Pastry.ListOf(pastryInputNumber);
+    Console.WriteLine(Pastry.ListOf(pastryInputNumber));
     int pastryTotal = Pastry.CalcTotal(Bread.breadNumberList, 0);
     Console.WriteLine($"The cost of your bread is $ {breadTotal}, and the cost of your pastry item(s) is $ {pastryTotal}, giving you a total of $ {breadTotal + pastryTotal}");
   }

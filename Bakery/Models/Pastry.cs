@@ -14,7 +14,7 @@ namespace Bakery.Models
   {
     public int pastryInputNumber { get; set; }
     //need to create object to loop through up to bread input number
-    public int pastryTotal;
+    public int pastryTotal = 0;
     public static List<int> pastryNumberList = new List<int>();
     public static List<int> ListOf(int pastryInputNumber)
     {
@@ -28,11 +28,11 @@ namespace Bakery.Models
     {
       for (int i = 0; i < breadNumberList.Count; i++)
       {
-        if (i % 4 != 0)
+        if ((i + 1) % 4 != 0)
         {
-          // Index value is divisible by 3
+          // Index value is divisible by 4
           // add a add 5 to total value
-          pastryTotal += pastryTotal + 3;
+          pastryTotal += 2;
 
         }
       }
