@@ -44,5 +44,3 @@ namespace Bakery.Models
     
   }
 }
-
-

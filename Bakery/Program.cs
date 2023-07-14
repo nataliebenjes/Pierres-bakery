@@ -23,7 +23,7 @@ class Program
     int breadTotal = Bread.CalcTotal(Bread.breadNumberList, 0);
     Pastry.ListOf(pastryInputNumber);
     int pastryTotal = Pastry.CalcTotal(Bread.breadNumberList, 0);
-    //Console.Writeline($"your total cost is");
+    Console.WriteLine($"The cost of your bread is $ {breadTotal}, and the cost of your pastry item(s) is $ {pastryTotal}, giving you a total of $ {breadTotal + pastryTotal}");
   }
 
 }
