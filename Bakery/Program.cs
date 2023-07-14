@@ -20,10 +20,10 @@ class Program
     //calculate pastry cost
     //create instances of orders
     Bread.ListOf(breadInputNumber);
-    Bread.CalcTotal();
+    int breadTotal = Bread.CalcTotal(Bread.breadNumberList, 0);
     Pastry.ListOf(pastryInputNumber);
-    Pastry.CalcTotal();
-    //Console.Writeline("your total cost is");
+    int pastryTotal = Pastry.CalcTotal(Bread.breadNumberList, 0);
+    //Console.Writeline($"your total cost is");
   }
 
 }

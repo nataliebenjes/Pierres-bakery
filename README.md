@@ -1,20 +1,20 @@
-#  Title
+#  Pierre's Bakery
 
-#### By: Jason Elijah Church
+#### By: Natalie Benjes
 
 #### Brief Description
 
 ## Technologies Used
-
+_C#
 
 
 ## Description:
-
+This app will offer the user different amounts of breads and pastries, and return a cost to the user based off of their selections.
 
 ## Setup/ Installation Requirements
 
 1. Clone this repo.
-2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "ShapeTracker".
+2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "Bakery".
 3. In the command line, run the command "dotnet run" to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal.
 4. Optionally, you can run "dotnet build" to compile this console app without running it.
 
@@ -25,7 +25,7 @@
 
 MIT License
 
-Copyright (c) (2023) Jason Elijah Church
+Copyright (c) (2023) Natalie Benjes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
