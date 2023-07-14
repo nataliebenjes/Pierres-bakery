@@ -28,7 +28,7 @@ namespace Bakery.Models
     {
       for (int i = 0; i < breadNumberList.Count; i++)
       {
-        if ((i + 1) % 4 != 0)
+        if (i % 4 != 0)
         {
           // Index value is divisible by 4
           // add a add 5 to total value

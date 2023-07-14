@@ -32,7 +32,7 @@ namespace Bakery.Models
     {
       for (int i = 0; i < breadNumberList.Count; i++)
       {
-        if ((i + 1) % 3 != 0)
+        if (i % 3 != 0)
         {
           // Index value is divisible by 3
           // add a add 5 to total value
