@@ -18,10 +18,10 @@ namespace Bakery.Models
     public static List<int> pastryNumberList = new List<int>();
     public static List<int> ListOf(int pastryInputNumber)
     {
-      for (int i = 0; i <= pastryInputNumber; i++)
-      {
-        pastryNumberList.Add(i);
-      }
+      // for (int i = 0; i <= pastryInputNumber; i++)
+      // {
+      //   pastryNumberList.Add(i);
+      // }
       return pastryNumberList;
     }
     public static int CalcTotal(List<int> breadNumberList, int pastryTotal)
