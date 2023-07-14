@@ -16,8 +16,13 @@ class Program
     int breadInputNumber = int.Parse(breadInput);
     Console.WriteLine("How many pastries would you like? Please enter a number between 0 and 10, then press enter");
     string pastryInput = Console.ReadLine();
-    int pastryNumber = int.Parse(pastryInput);
-Bread.CalcTotal(string breadInput)   //calculate pastry cost
+    int pastryInputNumber = int.Parse(pastryInput);
+    //calculate pastry cost
+    //create instances of orders
+    Bread.ListOf(breadInputNumber);
+    Bread.CalcTotal();
+    Pastry.ListOf(pastryInputNumber);
+    Pastry.CalcTotal();
     //Console.Writeline("your total cost is");
   }
 

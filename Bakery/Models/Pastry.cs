@@ -15,9 +15,8 @@ namespace Bakery.Models
     public int pastryInputNumber { get; set; }
     //need to create object to loop through up to bread input number
     public int pastryTotal;
-
     public static List<int> pastryNumberList = new List<int>();
-    public static List<int> listOf(int pastryInputNumber)
+    public static List<int> ListOf(int pastryInputNumber)
     {
       for (int i = 0; i <= pastryInputNumber; i++)
       {

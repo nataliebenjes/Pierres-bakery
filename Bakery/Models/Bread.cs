@@ -37,12 +37,11 @@ namespace Bakery.Models
           // Index value is divisible by 3
           // add a add 5 to total value
           breadTotal += breadTotal + 5;
-
         }
       }
       return breadTotal;
-
     }
+    
   }
 }
 
