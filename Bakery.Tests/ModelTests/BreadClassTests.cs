@@ -23,7 +23,7 @@ namespace Bakery.Tests
       List<int> potentialBread = new List<int>() { 0, 1, 2, 3, 4, 5, 6 };
       int expectedTotal = 0;
       int actualTotal = Bread.CalcTotal(potentialBread, expectedTotal);
-      Assert.AreEqual(, actualTotal);
+      Assert.AreEqual(20, actualTotal);
     }
   }
 }
