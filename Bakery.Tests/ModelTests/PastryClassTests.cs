@@ -17,5 +17,14 @@ public class PastryTest
     // Act & Assert
     CollectionAssert.AreEqual(expectedList, resultList);
   }
+  [TestMethod]
+  public void DeterminePastryTotal()
+  {
+    List<int> potentialPastries = new List<int>() { 0, 1, 2, 3, 4, 5, 6 };
+    int expectedTotal = 0;
+    int actualTotal = Pastry.CalcTotal(potentialPastries, expectedTotal);
+    Assert.AreEqual(12, actualTotal);
+  }
+}
 
 }
