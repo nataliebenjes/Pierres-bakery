@@ -17,5 +17,10 @@ namespace Bakery.Tests
       // Act & Assert
       CollectionAssert.AreEqual(expectedList, resultList);
     }
+    public void DetermineBreadTotal(){
+      List<int> potentialBread = new List<int>() { 0, 1, 2, 3, 4, 5, 6 };
+      int expectedTotal = 0;
+      Assert.AreEqual(Bread.CalcTotal(potentialBread, expectedTotal), 5);
+    }
   }
 }
