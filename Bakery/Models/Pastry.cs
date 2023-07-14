@@ -26,16 +26,16 @@ namespace Bakery.Models
     }
     public static int CalcTotal(List<int> breadNumberList, int pastryTotal)
     {
-      // for (int i = 0; i < breadNumberList.Count; i++)
-      // {
-      //   if (i % 4 != 0)
-      //   {
-      //     // Index value is divisible by 4
-      //     // add a add 5 to total value
-      //     pastryTotal += 2;
+      for (int i = 0; i < breadNumberList.Count; i++)
+      {
+        // if (i % 4 != 0)
+        // {
+        //   // Index value is divisible by 4
+        //   // add a add 5 to total value
+        //   pastryTotal += 2;
 
-      //   }
-      // }
+        // }
+      }
       return pastryTotal;
     }
   }
