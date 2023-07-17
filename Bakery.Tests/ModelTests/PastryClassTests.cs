@@ -21,9 +21,9 @@ public class PastryTest
   public void DeterminePastryTotal()
   {
     List<int> potentialPastries = new List<int>() { 0, 1, 2, 3, 4, 5, 6 };
-    int expectedTotal = 0;
-    int actualTotal = Pastry.CalcTotal(potentialPastries, expectedTotal);
-    Assert.AreEqual(12, actualTotal);
+    int expectedPastryTotal = 0;
+    int actualTotal = Pastry.CalcTotal(potentialPastries, expectedPastryTotal);
+    Assert.AreEqual(10, actualTotal);
   }
 }
 
